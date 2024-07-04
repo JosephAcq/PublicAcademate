@@ -1,9 +1,9 @@
 import React from 'react';
 import {Image, View} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import homeIcon from '/Users/josephacquah/test8/images/home2.png';
+import homeIcon from '/Users/josephacquah/OfficialAcademate/images/home2.png';
 import calendarIcon from './images/calendar.png';
-import settingsIcon from '/Users/josephacquah/test8/images/settings.png'; // Added this line
+import settingsIcon from '/Users/josephacquah/OfficialAcademate/images/settings.png'; // Added this line
 
 export function CustomTabBarIcon({route, focused, color, size}) {
   return (

@@ -248,10 +248,10 @@ const LoginScreen = ({onLogin, onSignUp, onGoogleSignIn, onForgotPassword}) => {
 
   const backgroundImage =
     windowWidth <= 414 && windowHeight > 736
-      ? require('/Users/josephacquah/test8/images/iPhone.png')
+      ? require('/Users/josephacquah/OfficialAcademate/images/iPhone.png')
       : windowWidth <= 414 || windowHeight <= 736
-      ? require('/Users/josephacquah/test8/images/iPhone8Plus.png')
-      : require('/Users/josephacquah/test8/images/iPhone.png');
+      ? require('/Users/josephacquah/OfficialAcademate/images/iPhone8Plus.png')
+      : require('/Users/josephacquah/OfficialAcademate/images/iPhone.png');
 
   const containerStyle = {
     width: '85%',
@@ -289,7 +289,7 @@ const LoginScreen = ({onLogin, onSignUp, onGoogleSignIn, onForgotPassword}) => {
           <Text style={styles.buttonText}>Sign in:</Text>
           <TouchableOpacity onPress={handleLogin}>
             <Image
-              source={require('/Users/josephacquah/test8/images/SignIn.png')}
+              source={require('/Users/josephacquah/OfficialAcademate/images/SignIn.png')}
               style={styles.buttonImage}
             />
           </TouchableOpacity>
@@ -322,7 +322,7 @@ const LoginScreen = ({onLogin, onSignUp, onGoogleSignIn, onForgotPassword}) => {
                 Continue With Google{' '}
               </Text>
               <Image
-                source={require('/Users/josephacquah/test8/images/search.png')}
+                source={require('/Users//josephacquah/OfficialAcademate/images/search.png')}
                 style={styles.googleSignInImage}
               />
             </View>
@@ -344,7 +344,7 @@ const LoginScreen = ({onLogin, onSignUp, onGoogleSignIn, onForgotPassword}) => {
                 Continue With Apple{' '}
               </Text>
               <Image
-                source={require('/Users/josephacquah/test8/images/apple.png')}
+                source={require('/Users/josephacquah/OfficialAcademate/images/apple.png')}
                 style={styles.appleImage}
               />
             </View>

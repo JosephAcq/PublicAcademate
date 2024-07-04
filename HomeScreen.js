@@ -19,7 +19,7 @@ import ImagePicker from 'react-native-image-crop-picker';
 import storage from '@react-native-firebase/storage';
 import {Modal, TextInput, Button} from 'react-native';
 import RNRestart from 'react-native-restart';
-import kidsImage from '/Users/josephacquah/test8/images/kids.png';
+import kidsImage from '/Users/josephacquah/OfficialAcademate/images/kids.png';
 
 const HomeScreen = ({route}) => {
   const navigation = useNavigation();
@@ -29,7 +29,7 @@ const HomeScreen = ({route}) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [usernameModalVisible, setUsernameModalVisible] = useState(false);
   const [newUsername, setNewUsername] = useState('');
-  const defaultProfilePicture = require('/Users/josephacquah/test8/images/user.png');
+  const defaultProfilePicture = require('/Users/josephacquah/OfficialAcademate/images/user.png');
 
   const {width, height} = Dimensions.get('window');
 
@@ -163,11 +163,11 @@ const HomeScreen = ({route}) => {
     if (!userData.profilePicture) {
       await firestore().collection('users').doc(userId).set(
         {
-          profilePicture: '/Users/josephacquah/test8/images/user.png', // You can mark it as 'default' and handle this case in your UI
+          profilePicture: '/Users/josephacquah/OfficialAcademate/images/user.png', // You can mark it as 'default' and handle this case in your UI
         },
         {merge: true},
       );
-      userData.profilePicture = '/Users/josephacquah/test8/images/user.png';
+      userData.profilePicture = '/Users/josephacquah/OfficialAcademate/images/user.png';
       shouldRestart = true;
     }
 
@@ -253,14 +253,14 @@ const HomeScreen = ({route}) => {
         <View style={styles.actions}>
           <TouchableOpacity onPress={() => navigation.navigate('NewClub')}>
             <Image
-              source={require('/Users/josephacquah/test8/images/plus-icon-21722.png')}
+              source={require('/Users/josephacquah/OfficialAcademate/images/plus-icon-21722.png')}
               style={[styles.icon, iconStyle]} // Apply the conditional style
             />
           </TouchableOpacity>
           <TouchableOpacity onPress={toggleDropdown}>
             {user && user.profilePicture ? (
               user.profilePicture ===
-              '/Users/josephacquah/test8/images/user.png' ? (
+              '/Users/josephacquah/OfficialAcademate/images/user.png' ? (
                 <Image
                   source={defaultProfilePicture}
                   style={[profilePictureStyle]}
@@ -333,10 +333,10 @@ const HomeScreen = ({route}) => {
                 <ImageBackground
                   source={
                     item.color === 'BlueClub'
-                      ? require('/Users/josephacquah/test8/images/BlueClub.png')
+                      ? require('/Users/josephacquah/OfficialAcademate/images/BlueClub.png')
                       : item.color === 'PinkClub'
-                      ? require('/Users/josephacquah/test8/images/PinkClub.png')
-                      : require('/Users/josephacquah/test8/images/YellowClub.png')
+                      ? require('/Users/josephacquah/OfficialAcademate/images/PinkClub.png')
+                      : require('/Users/josephacquah/OfficialAcademate/images/YellowClub.png')
                   }
                   style={styles.imageBackground}
                   imageStyle={{borderRadius: 5}}>
@@ -348,7 +348,7 @@ const HomeScreen = ({route}) => {
                     <View style={styles.creatorContainer}>
                       {item.creatorProfilePicture &&
                         (item.creatorProfilePicture ===
-                        '/Users/josephacquah/test8/images/user.png' ? (
+                        '/Users/josephacquah/OfficialAcademate/images/user.png' ? (
                           <Image
                             source={defaultProfilePicture}
                             style={styles.profilePicture}
@@ -374,7 +374,7 @@ const HomeScreen = ({route}) => {
                     onPress={() => deleteClub(item.id)}
                     style={styles.deleteButton}>
                     <Image
-                      source={require('/Users/josephacquah/test8/images/bin.png')}
+                      source={require('/Users/josephacquah/OfficialAcademate/images/bin.png')}
                       style={{width: 25, height: 25, tintColor: 'red'}}
                     />
                     {item.isMature && ( // Check the isMature field here

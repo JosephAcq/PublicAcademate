@@ -156,7 +156,7 @@ const NewClubScreen = () => {
             style={styles.colorOption}
             onPress={() => setNewClub({...newClub, color: 'BlueClub'})}>
             <ImageBackground
-              source={require('/Users/josephacquah/test8/images/BlueBotton.png')}
+              source={require('/Users/josephacquah/OfficialAcademate/images/BlueBotton.png')}
               style={styles.imageBackground}
             />
           </TouchableOpacity>
@@ -164,7 +164,7 @@ const NewClubScreen = () => {
             style={styles.colorOption}
             onPress={() => setNewClub({...newClub, color: 'PinkClub'})}>
             <ImageBackground
-              source={require('/Users/josephacquah/test8/images/RedButton.png')}
+              source={require('/Users/josephacquah/OfficialAcademate/images/RedButton.png')}
               style={styles.imageBackground}
             />
           </TouchableOpacity>
@@ -172,7 +172,7 @@ const NewClubScreen = () => {
             style={styles.colorOption}
             onPress={() => setNewClub({...newClub, color: 'YellowClub'})}>
             <ImageBackground
-              source={require('/Users/josephacquah/test8/images/YellowButton.png')}
+              source={require('/Users/josephacquah/OfficialAcademate/images/YellowButton.png')}
               style={styles.imageBackground}
             />
           </TouchableOpacity>

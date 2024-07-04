@@ -9,19 +9,19 @@ const HeaderButtons = ({
   <View style={{flexDirection: 'row', alignItems: 'center'}}>
     <TouchableOpacity onPress={toggleSlideLeftPage}>
       <Image
-        source={require('/Users/josephacquah/test8/images/more.png')}
+        source={require('/Users/josephacquah/OfficialAcademate/images/more.png')}
         style={{width: 25, height: 25, marginRight: 10}}
       />
     </TouchableOpacity>
     <TouchableOpacity onPress={toggleSlideUpPage}>
       <Image
-        source={require('/Users/josephacquah/test8/images/check.png')}
+        source={require('/Users/josephacquah/OfficialAcademate/images/check.png')}
         style={{width: 25, height: 25, marginRight: 10}}
       />
     </TouchableOpacity>
     <TouchableOpacity onPress={toggleSlidePage}>
       <Image
-        source={require('/Users/josephacquah/test8/images/group.png')}
+        source={require('/Users/josephacquah/OfficialAcademate/images/group.png')}
         style={{width: 30, height: 30, marginRight: 10}}
       />
     </TouchableOpacity>

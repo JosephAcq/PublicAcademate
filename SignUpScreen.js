@@ -19,7 +19,7 @@ const SignUpScreen = ({navigation}) => {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
   const [profilePicture, setProfilePicture] = React.useState(
-    require('/Users/josephacquah/test8/images/user.png'),
+    require('/Users/josephacquah/OfficialAcademate/images/user.png'),
   );
 
   const [usernameError, setUsernameError] = React.useState(null);
@@ -161,7 +161,7 @@ const SignUpScreen = ({navigation}) => {
       </View>
       <View style={[styles.imageContainer, {marginTop: 35}]}>
         <Image
-          source={require('/Users/josephacquah/test8/images/9814.jpg')}
+          source={require('/Users/josephacquah/OfficialAcademate/images/9814.jpg')}
           style={[
             styles.imageOverUsername,
             // Check if the dimensions are smaller than 414x736
