@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Lora-Regular.ttf",
+      "sha1": "99892d245c2df12e4073a72caae6c064f2e9672a"
+    },
+    {
+      "path": "assets/fonts/Lora.ttf",
+      "sha1": "99892d245c2df12e4073a72caae6c064f2e9672a"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module RNExitApp {
+  umbrella header "RNExitApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
