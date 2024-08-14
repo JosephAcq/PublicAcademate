@@ -21,13 +21,13 @@ const AuthStack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 const HomeStack = createStackNavigator();
 const firebaseConfig = {
-  apiKey: 'AIzaSyCGlPGmX2Fgt6hP1zINOBntA6rEYmn-KIY  ',
-  authDomain: 'acadamate-3bef4.firebaseapp.com',
-  databaseURL: 'https://acadamate-3bef4.firebaseio.com',
-  projectId: 'acadamate-3bef4',
-  storageBucket: 'acadamate-3bef4.appspot.com',
-  messagingSenderId: '521230632803',
-  appId: '1:521230632803:ios:e5ba86a3fc12ae80fc7556',
+  apiKey: 'YOUR_FIREBASE_API_KEY',
+  authDomain: 'YOUR_FIREBASE_AUTH_DOMAIN',
+  databaseURL: 'YOUR_FIREBASE_DATABASE_URL',
+  projectId: 'YOUR_FIREBASE_PROJECT_ID',
+  storageBucket: 'YOUR_FIREBASE_STORAGE_BUCKET',
+  messagingSenderId: 'YOUR_FIREBASE_MESSAGING_SENDER_ID',
+  appId: 'YOUR_FIREBASE_APP_ID',
 };
 
 if (!firebase.apps.length) {
