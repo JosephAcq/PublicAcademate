@@ -63,7 +63,7 @@ const LoginScreen = ({onLogin, onSignUp, onGoogleSignIn, onForgotPassword}) => {
 
   GoogleSignin.configure({
     webClientId:
-      '521230632803-h95fdkn2bhfe695la3v1mrb5uhqdptsk.apps.googleusercontent.com', // client ID of type WEB for your server
+      'YOUR_GOOGLE_WEB_CLIENT_ID', // client ID of type WEB for your server
   });
 
   const handleLogin = () => {
