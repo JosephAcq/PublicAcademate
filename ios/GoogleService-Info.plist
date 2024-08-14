@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>521230632803-ccp0nqrvahuqfbh1sthjq96meq2a0fp5.apps.googleusercontent.com</string>
+	<string>YOUR_CLIENT_ID</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.521230632803-ccp0nqrvahuqfbh1sthjq96meq2a0fp5</string>
+	<string>YOUR_REVERSED_CLIENT_ID</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD8kyZxOGPi9SsW1gMFuWSFShiF_dN2Y88</string>
+	<string>YOUR_API_KEY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>521230632803</string>
+	<string>YOUR_GCM_SENDER_ID</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>org.reactjs.native.example.Academate</string>
 	<key>PROJECT_ID</key>
-	<string>acadamate-3bef4</string>
+	<string>YOUR_PROJECT_ID</string>
 	<key>STORAGE_BUCKET</key>
-	<string>acadamate-3bef4.appspot.com</string>
+	<string>YOUR_STORAGE_BUCKET</string>
 	<key>IS_ADS_ENABLED</key>
 	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:521230632803:ios:e5ba86a3fc12ae80fc7556</string>
+	<string>YOUR_GOOGLE_APP_ID</string>
 </dict>
 </plist>
